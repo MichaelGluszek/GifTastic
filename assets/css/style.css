@@ -1,3 +1,46 @@
-h1 {
-    color:green;
+body {
+	background-image: url("../images/drinkbkg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header {
+    background-image: url("../images/drinkbkg3.jpg");
+	margin: 10px ;
+	padding-left: 15px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	background-color: grey;
+	
+}
+
+form {
+    color: black;
+    font-family: arial;
+    font-weight: "bold";
+}
+button, form {
+	margin: 5px;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+	background-color: grey;
+	color:darkblue;
+}
+
+input {
+	background-color: greenyellow ;
+}
+
+p {
+	background-color: grey;
+	color: white;	
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+
+.item {
+	display: inline-block;
+	padding: 20px;
+	
 }
