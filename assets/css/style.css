@@ -5,17 +5,25 @@ body {
 }
 
 .header {
-    background-image: url("../images/drinkbkg3.jpg");
+	background-image: url("../images/drinkbkg3.jpg");
+	text-align: center;
+	text-shadow: 2px 2px orangered;
 	margin: 10px ;
-	padding-left: 15px;
 	padding-top: 5px;
 	padding-bottom: 2px;
-	background-color: grey;
-	
+	background-color: grey;	
+	border: 1px solid black;
 }
 
+.container {
+	background-color: rgba(128, 0, 128, 0.8);
+	padding-bottom: 500px;
+	padding-top: 20px;
+	margin-top: -10px;
+}
 form {
-    color: black;
+	color: white;
+	text-shadow: 2px 2px orangered;
     font-family: arial;
     font-weight: "bold";
 }
@@ -36,7 +44,8 @@ p {
 	background-color: grey;
 	color: white;	
     padding-left: 10px;
-    padding-bottom: 2px;
+	padding-bottom: 2px;
+	border: 2px solid;
 }
 
 .item {
